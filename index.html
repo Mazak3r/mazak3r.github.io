@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO / Social -->
+  <title>Muslim Mohammed — Network Automation & AI Engineer</title>
+  <meta name="description" content="Network software developer & automation engineer. GPON/OLT automation, AI agents for ISPs, Linux infrastructure, and network telemetry. Python, Docker, SNMP, MikroTik." />
+  <meta name="author" content="Muslim Mohammed" />
+  <meta property="og:title" content="Muslim Mohammed — Network Automation & AI Engineer" />
+  <meta property="og:description" content="GPON/OLT automation · Agentic AI for ISPs · Python · Docker · SNMP · MikroTik" />
+  <meta property="og:url" content="https://mazak3r.is-a.dev" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0a0f1d" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: '#00f2fe',
+            darkbg: '#0a0f1d',
+            cardbg: '#111827',
+          },
+          fontFamily: {
+            mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-darkbg text-gray-200 font-sans antialiased selection:bg-cyan-500 selection:text-black">
+
+  <main class="max-w-4xl mx-auto px-6 py-16 space-y-20">
+
+    <!-- HERO -->
+    <section class="space-y-6">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-950/60 border border-cyan-500/30 text-cyan-400 text-xs font-mono">
+        <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+        <span>available for engineering roles &amp; collaboration</span>
+      </div>
+
+      <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white">
+        Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Muslim Mohammed</span>.
+      </h1>
+
+      <p class="text-lg text-gray-400 max-w-2xl leading-relaxed">
+        Network software developer &amp; automation engineer building <span class="text-gray-200">GPON/OLT automation</span>,
+        <span class="text-gray-200">agentic AI for ISPs</span>, and <span class="text-gray-200">network telemetry</span> systems —
+        from Python async backends to Linux infrastructure.
+      </p>
+
+      <div class="flex flex-wrap gap-4 pt-2">
+        <a href="https://github.com/Mazak3r" target="_blank" rel="noopener"
+           class="px-5 py-2.5 bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition">
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/mazak3r/" target="_blank" rel="noopener"
+           class="px-5 py-2.5 bg-[#0a66c2] text-white font-semibold rounded-lg hover:bg-[#0856a3] transition">
+          LinkedIn
+        </a>
+        <a href="mailto:mazaak3r@gmail.com"
+           class="px-5 py-2.5 bg-gray-800 text-white font-semibold rounded-lg hover:bg-gray-700 transition border border-gray-700">
+          Email Me
+        </a>
+      </div>
+    </section>
+
+    <!-- TERMINAL / NEOFETCH -->
+    <section class="rounded-xl bg-cardbg border border-gray-800 p-4 font-mono text-sm shadow-xl">
+      <div class="flex items-center gap-2 mb-3 pb-3 border-b border-gray-800">
+        <span class="w-3 h-3 rounded-full bg-red-500"></span>
+        <span class="w-3 h-3 rounded-full bg-yellow-500"></span>
+        <span class="w-3 h-3 rounded-full bg-green-500"></span>
+        <span class="text-xs text-gray-500 ml-2">mazak3r@is-a-dev</span>
+      </div>
+      <div class="space-y-1 text-gray-300 overflow-x-auto">
+        <p><span class="text-cyan-400">mazak3r@is-a-dev</span>:<span class="text-blue-400">~</span>$ neofetch</p>
+        <p><span class="text-gray-500">OS:</span> Ubuntu Linux 24.04 LTS · Windows</p>
+        <p><span class="text-gray-500">Role:</span> Network Software Developer · Automation Engineer</p>
+        <p><span class="text-gray-500">Stack:</span> Python 3.12 · Docker · asyncio · FastAPI · Ansible · Laravel · Flutter</p>
+        <p><span class="text-gray-500">Network:</span> GPON/EPON · OLT Automation · SNMP · MikroTik · GNS3</p>
+        <p><span class="text-gray-500">Cloud:</span> AWS (EC2) · Azure</p>
+        <p><span class="text-gray-500">Domain:</span> <span class="text-green-400">mazak3r.is-a.dev</span></p>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS -->
+    <section class="space-y-8">
+      <h2 class="text-2xl font-bold text-white tracking-wide border-b border-gray-800 pb-3">Featured Projects</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <!-- Minitron -->
+        <article class="p-6 rounded-xl bg-cardbg border border-gray-800 hover:border-cyan-500/50 transition space-y-4 flex flex-col">
+          <div class="flex justify-between items-start gap-3">
+            <h3 class="text-xl font-bold text-white">Minitron</h3>
+            <a href="https://github.com/Mazak3r/Minitron" target="_blank" rel="noopener"
+               class="text-xs text-cyan-400 font-mono hover:underline whitespace-nowrap">View Repo ↗</a>
+          </div>
+          <p class="text-sm text-gray-400 flex-1">
+            High-performance decision engine that classifies ONU outages — general downtime vs. isolated —
+            with per-ONU signal diagnostics. Supports ZTE C300/C320 and CDATA F-series OLTs with full ONU automation.
+          </p>
+          <div class="flex flex-wrap gap-2 text-xs font-mono text-gray-300">
+            <span class="px-2 py-1 bg-gray-800 rounded">Python</span>
+            <span class="px-2 py-1 bg-gray-800 rounded">Telnetlib</span>
+            <span class="px-2 py-1 bg-gray-800 rounded">SNMP</span>
+            <span class="px-2 py-1 bg-gray-800 rounded">REST API</span>
+            <span class="px-2 py-1 bg-gray-800 rounded">Docker</span>
+          </div>
+        </article>
+
+        <!-- Tron -->
+        <article class="p-6 rounded-xl bg-cardbg border border-gray-800 hover:border-cyan-500/50 transition space-y-4 flex flex-col">
+          <div class="flex justify-between items-start gap-3">
+            <h3 class="text-xl font-bold text-white">Tron</h3>
+            <a href="https://github.com/Mazak3r/Tron" target="_blank" rel="noopener"
+               class="text-xs text-cyan-400 font-mono hover:underline whitespace-nowrap">View Repo ↗</a>
+          </div>
+          <p class="text-sm text-gray-400 flex-1">
+            AI-powered customer service agent for fiber ISPs. Diagnoses subscriber downtime (general vs. isolated),
+            checks account status, troubleshoots speed issues, and performs ONU actions — WiFi management,
+            device inspection, live status checks.
+          </p>
+          <div class="flex flex-wrap gap-2 text-xs font-mono text-gray-300">
+            <span class="px-2 py-1 bg-gray-800 rounded">Python</span>
+            <span class="px-2 py-1 bg-gray-800 rounded">OpenAI</span>
+            <span class="px-2 py-1 bg-gray-800 rounded">FastAPI</span>
+            <span class="px-2 py-1 bg-gray-800 rounded">Docker</span>
+            <span class="px-2 py-1 bg-gray-800 rounded">Linux</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- STACK SECTION (bonus) -->
+    <section class="space-y-6">
+      <h2 class="text-2xl font-bold text-white tracking-wide border-b border-gray-800 pb-3">Toolbox</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm">
+        <div class="p-4 rounded-lg bg-cardbg border border-gray-800">
+          <p class="text-cyan-400 font-mono text-xs mb-2">// languages &amp; frameworks</p>
+          <p class="text-gray-300">Python · Bash · Flutter · Laravel</p>
+        </div>
+        <div class="p-4 rounded-lg bg-cardbg border border-gray-800">
+          <p class="text-cyan-400 font-mono text-xs mb-2">// infra &amp; devops</p>
+          <p class="text-gray-300">Docker · Ansible · AWS · Azure · Linux</p>
+        </div>
+        <div class="p-4 rounded-lg bg-cardbg border border-gray-800">
+          <p class="text-cyan-400 font-mono text-xs mb-2">// networking</p>
+          <p class="text-gray-300">SNMP · MikroTik · GPON/EPON · OLT · GNS3</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center text-sm text-gray-600 pt-8 border-t border-gray-800 font-mono space-y-2">
+      <p>
+        <a href="https://github.com/Mazak3r" class="hover:text-cyan-400 transition">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/mazak3r/" class="hover:text-cyan-400 transition">LinkedIn</a> ·
+        <a href="mailto:mazaak3r@gmail.com" class="hover:text-cyan-400 transition">Email</a>
+      </p>
+      <p>© <span id="year"></span> mazak3r.is-a.dev • Hosted on GitHub Pages</p>
+    </footer>
+
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
